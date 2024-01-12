@@ -17,8 +17,35 @@ body{
 
 .inputs{
     border: 2px solid rgb(62, 87, 87);
+    border-radius: 15px;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(172, 227, 227);
+}
+
+.inputs .input-form .input-box{
+    margin: 2px;
 }
 
 .outputs{
-    border: 2px solid rgb(62, 87, 87);
+    border-top: 20px solid rgb(62, 87, 87);
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: rgb(242, 246, 246);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.outputs .results{
+    width: 45%;
+    background-color: rgb(172, 227, 227);
+    border: 2px solid rgb(98, 137, 137);
+    padding: 10px;
+    margin: 10px;
 }
