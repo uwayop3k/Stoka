@@ -13,6 +13,7 @@ body{
     margin-bottom: 30px;
     border-radius: 50%;
     padding-top: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .inputs{
@@ -24,6 +25,7 @@ body{
     padding: 10px;
     text-align: center;
     background-color: rgb(172, 227, 227);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .inputs .input-form .input-box{
@@ -40,6 +42,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 .outputs .results{
@@ -48,4 +51,7 @@ body{
     border: 2px solid rgb(98, 137, 137);
     padding: 10px;
     margin: 10px;
+}
+.outputs .results:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
