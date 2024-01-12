@@ -8,6 +8,9 @@ let resultHTML = `
         <div class="branch-out">
             Branch:
         </div>
+        <div class="range">
+            Range:
+        </div>
         <div class="total-purchase">
             Total purchase:
         </div>
