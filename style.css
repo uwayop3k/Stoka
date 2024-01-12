@@ -1,0 +1,24 @@
+body{
+    display: block;
+    background-color: rgb(192, 226, 226);
+}
+
+.page-title{
+    text-align: center;
+    background-color: rgb(116, 209, 209);
+    width: 30%;
+    height: 55px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    padding-top: 15px;
+}
+
+.inputs{
+    border: 2px solid rgb(62, 87, 87);
+}
+
+.outputs{
+    border: 2px solid rgb(62, 87, 87);
+}

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Check your stock</title>
 </head>
 <body>
@@ -10,17 +11,21 @@
     <!-- Inputs -->
     <div class="inputs">
         <form action="index.html" class="input-form">
-            <div class="start-date">
-                Starting date
+            <div class="input-box">
+                <label for="start-date">Starting date</label><br>
+                <input type="date" id="start-date" name="start-date" value="start-date">
             </div>
-            <div class="end-date">
-                End Date
+            <div class="input-box">
+                <label for="start-date">End Date</label><br>
+                <input type="date" id="end-date" name="end-date" value="end-date">
             </div>
-            <div class="branch">
-                Branch
+            <div class="input-box">
+                <label for="branch">Branch</label><br>
+                <input type="text" id="branch" name="branch" value="branch">
             </div>
-            <div class="item">
-                Item
+            <div class="input-box">
+                <label for="item">Item</label><br>
+                <input type="text" id="item" name="item" value="item">
             </div>
         </form>
     </div>
@@ -50,5 +55,7 @@
         </div>
     </div>
     <!--// Outputs -->
+
+
 </body>
 </html>
