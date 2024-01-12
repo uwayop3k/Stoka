@@ -15,10 +15,7 @@ let resultHTML = `
             Total sales:
         </div>
         <div class="actual-oosd">
-            Actual OOSD:
-        </div>
-        <div class="average-oosd">
-            Average OOSD:
+            Out of stock days:
         </div>
     </div>
 `;
